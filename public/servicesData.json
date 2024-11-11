@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Gold Service",
+    "description": "Complete interior and exterior cleaning with waxing",
+    "price": "$150",
+    "type": "sedan",
+    "availability": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+    "images": ["image1.jpg", "image2.jpg"],
+    "features": [
+      "Hand Wash",
+      "Gloss Finish",
+      "Vacuum Interior",
+      "Windows (Inside & Outside)",
+      "Dashboard Cleaned & Polished",
+      "Mag's Wheel Cleaned & Dressed",
+      "Door Frames & Jambs Cleaned"
+    ],
+    "prices": {
+      "Small Cars": "$90",
+      "Medium Cars": "$100",
+      "SUV / 4 x 4": "$120",
+      "7 Seaters": "$150"
+    }
+  },
+  {
+    "name": "Diamond Service",
+    "description": "Premium service including interior detailing",
+    "price": "$250",
+    "type": "SUV",
+    "availability": ["Tuesday", "Thursday", "Saturday"],
+    "images": ["image3.jpg", "image4.jpg"],
+    "features": [
+      "Hand Wash, Gloss Finish",
+      "Mag’s Wheel Detail Clean, Dressed and Shine",
+      "Dashboard Cleaned & Polished",
+      "Windows (Inside & Outside)",
+      "Hand Wax & Tar Removal",
+      "Shampoo/Steam Clean Seats & Mats",
+      "Door Frames & Jambs Cleaned",
+      "Engine Bay Detail",
+      "Full Machine Cut & Polish"
+    ],
+    "prices": {
+      "Small Cars": "$300",
+      "Medium Cars": "$350",
+      "SUV / 4 x 4": "$400",
+      "7 Seaters": "$420"
+    }
+  },
+  {
+    "name": "Platinum Service",
+    "description": "Top-tier service with ceramic coating",
+    "price": "$350",
+    "type": "7-seater",
+    "availability": ["Sunday"],
+    "images": ["image5.jpg", "image6.jpg"],
+    "features": [
+      "Ceramic Coating",
+      "Interior Detailing",
+      "Exterior Polishing",
+      "Wheel and Tire Shine",
+      "Engine Bay Cleaning",
+      "Window Treatment"
+    ],
+    "prices": {
+      "Small cars": "$160",
+      "Medium cars": "$190",
+      "SUV/4x4": "$230",
+      "7 Seaters": "$250"
+    }
+  }
+]

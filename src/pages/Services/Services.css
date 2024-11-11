@@ -1,0 +1,163 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5; /* Light background color */
+    color: #333; /* Dark text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section Styles */
+.services-header {
+    text-align: center;
+    background-color: #4c8bd2; /* Vibrant blue color */
+    padding: 50px 30px;
+    color: #fff; /* White text */
+    margin-bottom: 40px; /* Space below the header */
+    border: none;
+    border-radius: 15px;
+}
+
+.services-header h1 {
+    font-size: 3rem; /* Larger font size */
+    margin-bottom: 10px;
+}
+
+.services-header p {
+    font-size: 1.5rem; /* Larger font size for the description */
+    margin-bottom: 20px;
+}
+
+/* Service Container Styles */
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px; /* Space between service items */
+    padding: 0 20px; /* Padding for the container */
+}
+
+/* Service Item Styles */
+.service-item {
+    background-color: #fff; /* White background */
+    border-radius: 10px;
+    color: #333; /* Dark text color */
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.service-item:hover {
+    transform: translateY(-10px); /* Lift up on hover */
+}
+
+.service-details {
+    position: relative;
+    z-index: 1;
+}
+
+.service-details h3 {
+    font-size: 1.8rem; /* Larger font size for the title */
+    margin-bottom: 10px;
+    border-bottom: 2px solid #4a90e2; /* Bottom border with primary color */
+    padding-bottom: 5px;
+}
+
+.service-details p {
+    font-size: 1rem; /* Standard font size for the description */
+    margin-bottom: 20px;
+}
+
+/* Feature and Pricing Styles */
+.service-features, .service-prices, .service-availability, .service-price {
+    margin-top: 20px;
+}
+
+.service-features h4, .service-prices h4, .service-availability h4, .service-price h4 {
+    color: #4a90e2; /* Primary color for headings */
+    font-size: 1.2rem; /* Standardize heading size */
+    margin-bottom: 10px;
+}
+
+.service-features ul, .service-prices ul, .service-availability ul {
+    list-style: none;
+    padding: 0;
+}
+.service-availability ul{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.service-availability ul li{
+    background-color: #4a90e2;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.service-prices p{
+    font-size: 1.05rem;
+    color: #2ab01b;
+    font-weight: bold;
+    display: inline;
+}
+.service-price p{
+    font-size: 1.5rem;
+    color: #2ab01b;
+    font-weight: bold;
+    display: inline;
+
+}
+
+.service-features ul li, .service-prices ul li, .service-availability ul li {
+    margin-bottom: 5px;
+}
+
+/* Two-column layout for features and pricing */
+.features-pricing {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-pricing > div {
+    flex: 1;
+    margin-right: 10px; /* Space between columns */
+}
+
+.features-pricing > div:last-child {
+    margin-right: 0; /* Remove margin for last item */
+}
+
+/* Responsive Design for Mobile */
+@media screen and (max-width: 768px) {
+    .services-container {
+        grid-template-columns: 1fr;
+    }
+
+    .service-item {
+        min-height: 300px;
+    }
+
+    .features-pricing {
+        flex-direction: column;
+    }
+
+    .features-pricing > div {
+        margin-right: 0;
+        margin-bottom: 20px; /* Space between rows on mobile */
+    }
+}
+
+/* Additional styles for larger screens */
+@media screen and (min-width: 1024px) {
+    .services-container {
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    }
+
+    .service-item {
+        min-height: 350px;
+    }
+}

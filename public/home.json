@@ -1,0 +1,28 @@
+{
+  "featuredServices": [
+    {
+      "name": "Gold Service",
+      "Description": "Complete interior and exterior cleaning with waxing",
+      "price": 150,
+      "image": "gold.png"
+    },
+    {
+      "name": "Diamond Service",
+      "Description": "Premium service including interior detailing",
+      "price": 250,
+      "image": "diamond.png"
+    },
+    {
+      "name": "Platinum Service",
+      "Description": "Complete interior and exterior cleaning with waxing and detailing",
+      "price": 350,
+      "image": "platinum.png"
+    }
+  ],
+  "promotions": [
+    {
+      "title": "Summer Special!",
+      "Description": "Get 20% off on Platinum Service this summer."
+    }
+  ]
+}

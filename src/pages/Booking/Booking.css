@@ -1,0 +1,79 @@
+.booking-container {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.booking-container h1 {
+    text-align: center;
+    color: #333333;
+}
+
+.booking-container form {
+    margin-top: 20px;
+}
+
+.booking-container .btn {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #007bff;
+    border: none;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.booking-container .btn:hover {
+    background-color: #0056b3;
+}
+
+.booking-container .form-group {
+    margin-bottom: 20px;
+}
+
+.booking-container label {
+    font-weight: bold;
+    color: #333333;
+}
+
+.booking-container input[type="text"],
+.booking-container input[type="email"],
+.booking-container input[type="tel"],
+.booking-container input[type="date"],
+.booking-container input[type="time"],
+.booking-container select {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.booking-container input[type="text"]:focus,
+.booking-container input[type="email"]:focus,
+.booking-container input[type="tel"]:focus,
+.booking-container input[type="date"]:focus,
+.booking-container input[type="time"]:focus,
+.booking-container select:focus {
+    border-color: #007bff;
+}
+
+.booking-container .btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.booking-container .btn-primary:hover {
+    background-color: #0056b3;
+}

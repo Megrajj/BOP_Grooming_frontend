@@ -1,0 +1,60 @@
+{
+  "services": [
+    {
+      "name": "Gold Package",
+      "features": [
+        "Hand wash",
+        "Gloss Finish",
+        "Vacuum Interior",
+        "Windows (inside and outside)",
+        "Dashboard cleaned and polished",
+        "Mags Wheel cleaned and Dressed",
+        "Door Frames and Jambs Cleaned"
+      ],
+      "prices": {
+        "Small cars": "$90",
+        "Medium cars": "$100",
+        "SUV/4x4": "$120",
+        "7 Seaters": "$150"
+      }
+    },
+    {
+      "name": "Platinum Package",
+      "features": [
+        "Hand wash, Gloss finish",
+        "Mags wheel detail clean dressed and shine",
+        "Dashboard cleaned and polished",
+        "Window(Inside and Outside)",
+        "Hand wax and Tar removal",
+        "Shampoo and steam clean seats and mats",
+        "Door frames and jambs cleaned"
+      ],
+      "prices": {
+        "Small cars": "$160",
+        "Medium cars": "$190",
+        "SUV/4x4": "$230",
+        "7 Seaters": "$250"
+      }
+    },
+    {
+        "name": "Diamond Package",
+        "features": [
+            "Hand wash, Gloss finish",
+            "Mags wheel detail clean dressed and shine",
+            "Dashboard cleaned and polished",
+            "Window(inside and outside)",
+            "Hand wax and Tar removal",
+            "Shampoo and steam clean seats and mats",
+            "Door frames and jambs cleaned",
+            "Engine Bay Detail",
+            "Full Machine cuts and polish"
+        ],
+        "prices": {
+          "Small cars": "$160",
+          "Medium cars": "$190",
+          "SUV/4x4": "$230",
+          "7 Seaters": "$250"
+        }
+    }
+  ]
+}
